@@ -1,4 +1,4 @@
 # amarillo-stops
 
-Stop import library for Amarillo GTFS-generator and Enhancer.
+Stop import library with shared code for Amarillo GTFS-generator and Enhancer. 
 
