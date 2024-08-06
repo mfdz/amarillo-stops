@@ -41,7 +41,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                sh 'python3 -m twine upload --verbose --username $PYPI_CREDS_USR --password $PYPI_CREDS_PSW ./dist/*'              
+                sh 'python3 -m twine upload --skip-existing --verbose --username $PYPI_CREDS_USR --password $PYPI_CREDS_PSW ./dist/*'              
             }
         }
     }
