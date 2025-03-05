@@ -6,5 +6,8 @@ readme = "README.md"
 license = {file = "LICENSE"}
 
 dependencies = [
-    "amarillo"
+    "amarillo",
+    "geopandas==0.14",
+    "pandas==2.1.1",
+    "numpy==1.26.4" # pinned because of https://stackoverflow.com/questions/78634235
 ]
